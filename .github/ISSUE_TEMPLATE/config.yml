@@ -5,4 +5,4 @@ contact_links:
     about: Setup questions, account problems, and general help. Ask in the C&C Online Discord.
   - name: Security vulnerability
     url: https://github.com/C-C-Online-2-0/Tacitus-Issues/security/policy
-    about: Do not disclose security vulnerabilities in a public issue. Follow the security policy to report privately.
+    about: Do not disclose security vulnerabilities in a public issue. Email security@cnc-online.net instead.
