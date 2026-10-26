@@ -2,6 +2,8 @@
 
 Public bug reports and feature requests for **Tacitus**, the C&C Online desktop client.
 
+Tacitus supports Red Alert 3, Tiberium Wars, Kane's Wrath, The Battle for Middle-earth, The Battle for Middle-earth II, and The Rise of the Witch-king.
+
 ## What this repository is
 
 - The public issue tracker for the Tacitus client.

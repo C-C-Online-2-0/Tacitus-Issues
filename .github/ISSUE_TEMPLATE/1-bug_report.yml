@@ -24,10 +24,12 @@ body:
       description: Which game were you using when the problem happened?
       options:
         - Not game-specific
+        - "C&C: Red Alert 3"
         - "C&C 3: Tiberium Wars"
         - "C&C 3: Kane's Wrath"
-        - "C&C: Red Alert 3"
-        - Other
+        - "The Battle for Middle-earth"
+        - "The Battle for Middle-earth II"
+        - "The Lord of the Rings: The Rise of the Witch-king"
     validations:
       required: true
   - type: dropdown
