@@ -1,0 +1,100 @@
+name: Bug report
+description: Report a bug, crash, or regression in the Tacitus client.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Tacitus. Please search existing issues first, and make sure you are on the latest version.
+        Do **not** include passwords, tokens, email addresses, or security vulnerabilities in this form.
+  - type: input
+    id: version
+    attributes:
+      label: Tacitus version
+      description: Shown in the client's settings or about screen.
+      placeholder: e.g. 1.4.2
+    validations:
+      required: true
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      description: Which game were you using when the problem happened?
+      options:
+        - Not game-specific
+        - "C&C 3: Tiberium Wars"
+        - "C&C 3: Kane's Wrath"
+        - "C&C: Red Alert 3"
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: affected_area
+    attributes:
+      label: Affected area
+      description: Which part of the client has the problem?
+      options:
+        - Installation or updating
+        - Login or account
+        - Lobby, chat, or friends
+        - Hosting or joining games
+        - Launching the game
+        - Settings
+        - Performance or crash
+        - Another area
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen instead.
+      placeholder: I expected ... but instead ...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smallest set of steps that reliably produces the problem.
+      placeholder: |
+        1. Open Tacitus
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Happened once
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: e.g. Windows 11 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, screenshots, or additional context
+      description: Attach client logs, error messages, or screenshots. Remove any personal data before posting.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and this has not been reported yet.
+          required: true
+        - label: I am using the latest version of Tacitus.
+          required: true
